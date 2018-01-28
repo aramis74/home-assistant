@@ -1,23 +1,15 @@
-- alias: Check sensor value and show notification
+- alias: Globus an
   trigger:
     platform: time
-    at: 00:20
+    at: 18:00
   action:
-    service: persistent_notification.create
-    data:
-      message: "Sensor value greater than 10"
+    service: switch.turn_on
+    entity_id: switch.globus
 
-- alias: Check Time
+- alias: Globus aus
   trigger:
     platform: time
-    at: 00:23
+    at: 23:00
   action:
-    service: light.turn_on
-
-- alias: Check Time2
-  trigger:
-    platform: time
-    at: 00:26
-  action:
-    service: light.turn_off
-    entity_id: light.deckenlampe
+    service: switch.turn_off
+    entity_id: switch.globus
