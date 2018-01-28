@@ -108,6 +108,17 @@ switch:
     payload_available: "Online"
     payload_not_available: "Offline"
     retain: true
+  - platform: mqtt
+    name: "Japanlampe"
+    state_topic: "stat/sonoff003/POWER"
+    command_topic: "cmnd/sonoff003/POWER"
+    availability_topic: "tele/sonoff003/LWT"
+    qos: 1
+    payload_on: "ON"
+    payload_off: "OFF"
+    payload_available: "Online"
+    payload_not_available: "Offline"
+    retain: true
 
 group: !include includes/groups.yaml
 automation: !include includes/automations.yaml
