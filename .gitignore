@@ -1,0 +1,9 @@
+secrets.yaml
+includes/zones.yaml
+known_devices.yaml
+home_assistant.log
+home-assistant_v2.db
+phue-0017882fc628.conf
+tts/*
+.cloud/*
+

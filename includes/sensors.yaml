@@ -1,0 +1,16 @@
+- platform: yr
+  name: yr
+  monitored_conditions:
+    - temperature
+    - pressure
+    - symbol
+
+- platform: wunderground
+  name: Wunderground
+  api_key: !secret wunderground_key
+  monitored_conditions:
+    - alerts
+    - dewpoint_c
+    - temp_c
+
+- platform: moon

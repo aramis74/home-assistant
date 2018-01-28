@@ -1,0 +1,41 @@
+default_view:
+  view: yes
+  name: Home
+  entities:
+    - group.lampen
+    - group.power
+    - group.weather
+
+media_view:
+  view: yes
+  name: Media
+  entities:
+    - media_player.wohnzimmer
+    - media_player.chromecastaudiostube
+    - media_player.chromecastaudioschloofst
+    - media_player.squeezebox_radio    
+
+weather:
+  name: Wetter
+  view: no
+  entities:
+    - sensor.pws_temp_c
+    - sensor.yr_temperature
+    - sensor.yr_symbol
+    - sensor.yr_pressure
+    - sensor.moon
+
+power:
+  view: no
+  name: Schalter
+  entities:
+    - switch.buchstabe
+    - switch.globus
+
+lampen:
+  view: no
+  name: Lampen
+  entities:
+    - light.artemide
+    - light.deckenlampe
+    - light.schlafzimmerlampe

@@ -1,0 +1,23 @@
+- alias: Check sensor value and show notification
+  trigger:
+    platform: time
+    at: 00:20
+  action:
+    service: persistent_notification.create
+    data:
+      message: "Sensor value greater than 10"
+
+- alias: Check Time
+  trigger:
+    platform: time
+    at: 00:23
+  action:
+    service: light.turn_on
+
+- alias: Check Time2
+  trigger:
+    platform: time
+    at: 00:26
+  action:
+    service: light.turn_off
+    entity_id: light.deckenlampe
