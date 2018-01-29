@@ -1,4 +1,3 @@
-<<<<<<< Updated upstream
 - alias: Globus an.
   trigger:
     platform: time
@@ -14,5 +13,3 @@
   action:
     service: switch.turn_off
     entity_id: switch.globus
-=======
->>>>>>> Stashed changes
