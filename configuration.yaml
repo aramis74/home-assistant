@@ -69,7 +69,7 @@ device_tracker:
   - platform: mikrotik
     host: 192.168.89.1
     username: !secret mikrotik_username
-    password: !secret miktorik_password
+    password: !secret mikrotik_password
     new_device_defaults:
       track_new_devices: true
 
