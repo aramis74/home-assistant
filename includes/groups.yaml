@@ -2,6 +2,9 @@ default_view:
   view: yes
   name: Home
   entities:
+    - sensor.moon
+    - sensor.pws_temp_c
+    - sensor.yr_symbol
     - group.lampen
     - group.power
     - group.weather
