@@ -65,13 +65,18 @@ tts:
 # Cloud
 cloud:
 
+notify:
+  - name: notifymyandroid
+    platform: nma
+    api_key: !secret nma_key
+
 device_tracker:
   - platform: mikrotik
     host: 192.168.89.1
     username: !secret mikrotik_username
     password: !secret mikrotik_password
     new_device_defaults:
-      track_new_devices: true
+      track_new_devices: false
 
 #Mosquitto MQTT Broker einbinden (laeuft auf gleichem Host)
 mqtt:
