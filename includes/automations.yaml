@@ -1,4 +1,4 @@
-- alias: Globus an
+- alias: Globus an.
   trigger:
     platform: time
     at: 18:00
