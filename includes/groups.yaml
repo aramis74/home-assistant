@@ -35,6 +35,7 @@ power:
     - switch.buchstabe
     - switch.globus
     - switch.japanlampe
+    - switch.lavalampe
 
 lampen:
   view: no
