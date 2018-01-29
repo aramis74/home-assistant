@@ -65,6 +65,14 @@ tts:
 # Cloud
 cloud:
 
+device_tracker:
+  - platform: mikrotik
+    host: 192.168.89.1
+    username: !secret mikrotik_username
+    password: !secret miktorik_password
+    new_device_defaults:
+      track_new_devices: true
+
 #Mosquitto MQTT Broker einbinden (laeuft auf gleichem Host)
 mqtt:
   broker: core-mosquitto
