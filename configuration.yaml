@@ -65,6 +65,13 @@ tts:
 # Cloud
 cloud:
 
+zones:
+  - name: Work
+    latitude: work_latitude
+    longitude: work_longitude
+    radius: 100
+    icon: mid:worker
+
 notify:
   - name: notifymyandroid
     platform: nma
