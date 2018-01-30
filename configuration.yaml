@@ -67,8 +67,8 @@ cloud:
 
 zones:
   - name: Work
-    latitude: work_latitude
-    longitude: work_longitude
+    latitude: !secret work_latitude
+    longitude: !secret work_longitude
     radius: 100
     icon: mid:worker
 
