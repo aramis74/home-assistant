@@ -84,6 +84,9 @@ device_tracker:
     password: !secret mikrotik_password
     new_device_defaults:
       track_new_devices: false
+# device_tracker.android8f7faff3d6b8f747	not_home
+# device_tracker.android8f7faff3d6b8f747	home
+
 
 #Mosquitto MQTT Broker einbinden (laeuft auf gleichem Host)
 mqtt:
