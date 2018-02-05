@@ -44,3 +44,4 @@ lampen:
     - light.artemide
     - light.deckenlampe
     - light.schlafzimmerlampe
+    - input_number.bedroom_brightness
