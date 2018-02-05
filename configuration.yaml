@@ -154,7 +154,7 @@ switch:
     payload_not_available: "Offline"
     retain: true
 
-input_slider:
+input_number:
   sleep_timer1:
     name: Sleep Timer1
     initial: 30
