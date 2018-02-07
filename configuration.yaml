@@ -155,12 +155,6 @@ switch:
     retain: true
 
 input_number:
-  sleep_timer1:
-    name: Sleep Timer1
-    initial: 30
-    min: 1
-    max: 120
-    step: 1
   bedroom_brightness:
     name: Brightness
     initial: 254

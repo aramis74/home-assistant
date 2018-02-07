@@ -26,5 +26,5 @@
   action:
     - service: light.turn_on
       data_template:
-        entity_id: light.light.schlafzimmerlampe
+        entity_id: light.schlafzimmerlampe
         brightness: "{{ trigger.to_state.state | int }}"
