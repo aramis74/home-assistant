@@ -14,3 +14,11 @@
     - temp_c
 
 - platform: moon
+
+- platform: speedtest
+  monitored_conditions:
+    - ping
+    - download
+    - upload
+  minute:
+    20
