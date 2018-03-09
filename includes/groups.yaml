@@ -43,5 +43,6 @@ lampen:
   entities:
     - light.artemide
     - light.deckenlampe
+    - light.ganglampe
     - light.schlafzimmerlampe
     - input_number.bedroom_brightness
