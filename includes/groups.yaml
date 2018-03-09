@@ -27,6 +27,8 @@ weather:
     - sensor.yr_symbol
     - sensor.yr_pressure
     - sensor.moon
+    - sensor.speedtest_download
+    - sensor.speedtest_upload
 
 power:
   view: no
@@ -43,6 +45,6 @@ lampen:
   entities:
     - light.artemide
     - light.deckenlampe
-    - light.ganglampe
+    - light.gang
     - light.schlafzimmerlampe
     - input_number.bedroom_brightness
